@@ -20,7 +20,7 @@ const Themetog = () => {
   return (
     <button
        className={cn(
-        "fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-colors duration-300",
+        "hidden fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-colors duration-300",
         "hover:bg-gray-300 dark:hover:bg-gray-700 ")}
     >
       {isDarkMode ? (
