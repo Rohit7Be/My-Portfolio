@@ -33,12 +33,18 @@ emailjs
       )
       .then(
         (result) => {
-          alert("Message sent successfully!");
+          toast({
+            title: "Message Sent!",
+            description: "Thank you for reaching out. I'll get back to you soon!",
+          });
           setIsSubmitting(false);
           e.target.reset();
         },
         (error) => {
-          alert("Oops! Something went wrong. Please try again.");
+          toast({
+            title: "Something went wrong!",
+            description: "Try again later, or send me mail directly",
+          });
           setIsSubmitting(false);
         }
       );
@@ -51,7 +57,7 @@ emailjs
         </h2>
 
         <p data-aos="fade-up" className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
+          Have a project in mind, want to collaborate or hire me? Feel free to reach out.
           I'm always open to discussing new opportunities.
         </p>
 

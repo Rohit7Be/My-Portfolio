@@ -189,7 +189,7 @@ const AboutSection = () => {
         className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
              transition duration-500 transform
              hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/40 flex items-center gap-2 flex-col
-             "
+             border-2"
         data-aos="fade-right"
         data-aos-delay="100"
       > <img src={rainbowlogo} className='w-15' alt="" />
