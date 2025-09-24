@@ -160,11 +160,13 @@ const AboutSection = () => {
         className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
              transition duration-500 transform
              hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/40 flex items-center gap-2 flex-col
-             "
+             border-2"
         data-aos="fade-right"
       > <img src={invlogo} className='w-15' alt="" />
         <strong className='text-xl'>Bachelor of Computer Applications - BCA</strong>
-        <span className='font-semibold'> Invertis University , Bareilly</span> <span className='font-semibold'>(2022–2025)</span>  
+        <p className="text-gray-400 mt-2">
+  Completed My Bachelor of Computer Applications (BCA) with a strong focus on Web Development. Gained hands-on experience in building responsive, user-friendly websites and web applications using modern technologies. Completed multiple projects while developing problem-solving and coding skills.
+</p><span className='font-semibold'> Invertis University , Bareilly</span> <span className='font-semibold'>(2022–2025)</span>  
       </div>
 </Tilt>
 <Tilt glareEnable={true} glareMaxOpacity={0.3} scale={1.05} transitionSpeed={2500} data-aos="fade-right">
@@ -172,11 +174,14 @@ const AboutSection = () => {
         className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
              transition duration-500 transform
              hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/40 flex items-center gap-2 flex-col
-             "
+             border-2"
         data-aos="fade-left"
         data-aos-delay="100"
       > <img src={rainbowlogo} className='w-15' alt="" />
-        <strong className='text-xl'>Intermediate</strong><span className='font-semibold'>CBSE (XII) - Science (PCM)</span><span className='font-semibold'>Rainbow Public School</span><span className='font-semibold'>(2021–2022)</span> 
+        <strong className='text-xl'>Intermediate</strong><span className='font-semibold'>CBSE (XII) - Science (PCM)</span>
+        <span className='text-yellow-300'>Grade : A</span><p className="text-gray-400 mt-2">
+    Completed Higher Secondary education with a focus on Physics, Chemistry, and Mathematics. Gained strong fundamentals in core scientific concepts and problem-solving skills.
+  </p><span className='font-semibold'>Rainbow Public School , Rudrapur</span><span className='font-semibold'>(2021–2022)</span> 
       </div>
 </Tilt>
 <Tilt glareEnable={true} glareMaxOpacity={0.2} scale={1.05} transitionSpeed={2500} data-aos="fade-right">
@@ -188,7 +193,9 @@ const AboutSection = () => {
         data-aos="fade-right"
         data-aos-delay="100"
       > <img src={rainbowlogo} className='w-15' alt="" />
-        <strong className='text-xl'>High School</strong> <span className='font-semibold'>CBSE (X)</span><span className='font-semibold' >Rainbow Public School</span> <span className='font-semibold'>(2019–2020)</span> 
+        <strong className='text-xl'>High School</strong> <span className='font-semibold'>CBSE (X)</span><span className='text-yellow-300'>Grade : A</span><p className="text-gray-400 mt-2">
+      Completed Secondary education with a focus on Science and Mathematics, building a solid foundation for advanced studies in PCM subjects.
+    </p><span className='font-semibold' >Rainbow Public School , Rudrapur</span> <span className='font-semibold'>(2019–2020)</span> 
       </div>
 </Tilt>
       
@@ -213,11 +220,14 @@ const AboutSection = () => {
         className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
              transition duration-500 transform
              hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/40 flex items-center gap-2 flex-col
-             "
+             border-2"
         data-aos="fade-right"
         data-aos-delay="100"
       > <img src={bluestocklogo} className='w-15' alt="" />
-        <strong className='text-xl'>SDE Frontend Intern</strong> <span className='font-semibold'>BlueStock Fintech</span><span className='font-semibold' >2 Months (April 2025 - June 2025)</span> 
+        <strong className='text-xl'>SDE Frontend Intern</strong> <span className='font-semibold'>BlueStock Fintech</span><span className='font-semibold' >2 Months (April 2025 - June 2025) - Internship</span> 
+        <p className="text-gray-400 mt-2">
+  Completed a 2-month Frontend Development internship , where I worked on building responsive and interactive web applications. Gained hands-on experience with React.js, Tailwind CSS, and JavaScript. Collaborated with the UI/UX team to implement user-friendly designs. Optimized components for performance and learned agile development workflows in a real-world environment.
+</p>
       </div>
 </Tilt>
       

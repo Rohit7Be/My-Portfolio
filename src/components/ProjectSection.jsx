@@ -105,7 +105,7 @@ const ProjectSection = () => {
             target="_blank"
             href="https://github.com/Rohit7Be"
           >
-            Check My Github <ArrowRight size={16} />
+            <Github size={20} /> Check My Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
