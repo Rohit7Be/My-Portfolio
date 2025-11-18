@@ -6,6 +6,7 @@ import invlogo from '../assets/inv-logo.png';
 import rainbowlogo from '../assets/rainbow-logo.png';
 import bluestocklogo from '../assets/bluestock-logo.png';
 import Tilt from 'react-parallax-tilt';
+import culogo from '../assets/culogo.png';
 
 
 const AboutSection = () => {
@@ -155,6 +156,20 @@ const AboutSection = () => {
       🎓 My <span className='text-primary'>Education</span> 
     </h3>
     <div className="space-y-10">
+      <Tilt glareEnable={true} glareMaxOpacity={0.3} scale={1.05} transitionSpeed={2500} data-aos="fade-right">
+  <div
+        className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
+             transition duration-500 transform
+             hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-500/40 flex items-center gap-2 flex-col
+             border-2"
+        data-aos="fade-left"
+      > <img src={culogo} className='w-15' alt="" />
+        <strong className='text-xl'>Master of Computer Application - MCA</strong>
+        <p className="text-gray-400 mt-2">
+  Currently pursuing my MCA (Online mode) from Chandigarh University with a strong focus on advanced software development, system design, and modern web technologies. This program is helping me strengthen my foundation in algorithms, data structures, full-stack development and AI basics.
+</p><span className='font-semibold'> Chandigarh University , Mohali</span> <span className='font-semibold'>(2025–present)</span>  
+      </div>
+</Tilt>
       <Tilt glareEnable={true} glareMaxOpacity={0.3} scale={1.05} transitionSpeed={2500} data-aos="fade-right">
   <div
         className="relative p-4 py-10 rounded-lg bg-[#0B111E] shadow-md
