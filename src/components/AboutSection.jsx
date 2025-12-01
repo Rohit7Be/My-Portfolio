@@ -166,7 +166,7 @@ const AboutSection = () => {
       > <img src={culogo} className='w-15' alt="" />
         <strong className='text-xl'>Master of Computer Application - MCA</strong>
         <p className="text-gray-400 mt-2">
-  Currently pursuing my MCA (Online mode) from Chandigarh University with a strong focus on advanced software development, system design, and modern web technologies. This program is helping me strengthen my foundation in algorithms, data structures, full-stack development and AI basics.
+  Currently pursuing my MCA from Chandigarh University with a strong focus on advanced software development, system design, and modern web technologies. This program is helping me strengthen my foundation in algorithms, data structures, full-stack development and AI basics.
 </p><span className='font-semibold'> Chandigarh University , Mohali</span> <span className='font-semibold'>(2025–present)</span>  
       </div>
 </Tilt>
